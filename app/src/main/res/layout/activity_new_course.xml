@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.NewCourseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+android:id="@+id/IVPreviewImage"
+                android:src="@drawable/default_image"
+
+                android:layout_gravity="center"
+                android:layout_width="200px"
+                android:layout_marginTop="50dp"
+                android:layout_height="200px"/>
+            <!--edit text for our movie Id-->
+            <EditText
+                android:id="@+id/idMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Movie Id" />
+
+            <!--edit text for title-->
+            <EditText
+                android:id="@+id/idTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Title" />
+
+            <!--edit text for studio-->
+            <EditText
+                android:id="@+id/idStudio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Studio" />
+
+            <!--edit text for genres-->
+            <EditText
+                android:id="@+id/idGenres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Genres" />
+
+            <!--edit text for directors-->
+            <EditText
+                android:id="@+id/idDirectors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Directors" />
+
+            <!--edit text for writers-->
+            <EditText
+                android:id="@+id/idWriters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Writers" />
+
+
+            <!--edit text for actors-->
+            <EditText
+                android:id="@+id/idActors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Actors" />
+
+            <!--edit text for year-->
+            <EditText
+                android:id="@+id/idYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Year" />
+
+            <!--edit text for length-->
+            <EditText
+                android:id="@+id/idLength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Length" />
+
+            <!--edit text for Short Description-->
+            <EditText
+                android:id="@+id/idShortDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Short Description" />
+
+            <!--edit text for mpaRating-->
+            <EditText
+                android:id="@+id/mpaRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="MPA Rating" />
+
+
+            <!--edit text for criticsRating-->
+            <EditText
+                android:id="@+id/criticsRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Critics Rating" />
+
+            <!--button for saving data to room database-->
+            <Button
+                android:id="@+id/idBtnSaveCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Save your course"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
